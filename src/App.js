@@ -1,9 +1,12 @@
 import './App.css';
+import Header from "./components/Header/Header";
+import Accordion from "./components/Accordion/Accordion";
 
-function App() {
+const App = () => {
     return (
-        <div className="App">
-
+        <div className='container'>
+            <Header />
+            <Accordion />
         </div>
     );
 }
